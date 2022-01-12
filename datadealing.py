@@ -46,8 +46,12 @@ def get_problem_name():
     problems = traindata['Problem Name']
     print(problems)
 
-plt.subplot2grid((1, 1),(0,0))
+#plt.subplot2grid((1, 1),(0,0))
 
-traindata["Anon Student Id"].value_counts().plot(kind = 'bar')
-plt.title("CFA")
-plt.ylabel("number")
+#traindata["Anon Student Id"].value_counts().plot(kind = 'bar')
+#plt.title("CFA")
+#plt.ylabel("number")
+
+names = ["Anon Student Id", "Problem Name", "Step Name", "Correct First Attempt", "Step Duration (sec)"]
+corr = traindata[names].corr()
+print(corr)
