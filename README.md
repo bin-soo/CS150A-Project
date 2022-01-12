@@ -10,8 +10,8 @@ k-fold cross validation for each expert
 ### Bagging - voting of L experts (classifiers)
 with/without dropout in val for bagging  
 Base expert:
-  ` Autogluon
-  ` FCNN
-  ` XGBoost
-  ` RandomForest
-  ` LightGBM
+  - Autogluon
+  - FCNN
+  - XGBoost
+  - RandomForest
+  - LightGBM
