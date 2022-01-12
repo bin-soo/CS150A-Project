@@ -3,7 +3,7 @@
 ## Data Preprocessing with PySpark
 ### feature engineering
 1. extract similarity or feature of KC  
-2. Add features: CFAR for class features.  
+2. Add features: CFAR/Duration for class features.  
 ### dataset seperation 
 k-fold cross validation for each classifier  
 ## Classification
