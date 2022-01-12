@@ -2,8 +2,9 @@
 
 ## Data Preprocessing with PySpark
 ### feature engineering
-1. extract similarity or feature of KC  
-2. Add features: CFAR/Duration for class features.  
+1. one-hot encoding for text features.  
+2. extract similarity or feature of KC.  
+3. Add features: CFAR/Duration for text features.  
 ### dataset seperation 
 k-fold cross validation for each expert  
 ## Classification
