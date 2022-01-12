@@ -15,3 +15,4 @@ Base expert:
   - XGBoost
   - RandomForest
   - LightGBM
+  - SVM
