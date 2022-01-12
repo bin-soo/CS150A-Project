@@ -20,4 +20,4 @@ Base expert:
   - XGBoost
   - RandomForest
   - LightGBM
-  - SVM
+  - kernel SVM
