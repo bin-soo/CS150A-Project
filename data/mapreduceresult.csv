@@ -1,0 +1,239 @@
+,KC Name,Appear times
+0,Nothing,59255
+1,Define,7147
+2,Variable,13057
+3,Using,43480
+4,small,14110
+5,numbers,43480
+6,Write,7993
+7,"expression,",7993
+8,positive,28591
+9,slope,19034
+10,difficult,7576
+11,Entering,27568
+12,a,25036
+13,given,22780
+14,Find,13747
+15,"X,",7995
+16,Simple,3606
+17,"Y,",5752
+18,SkillRule,93919
+19,Remove,57276
+20,coefficient,36954
+21,"ax/b=c, reciprocal",32382
+22,ax/b=c,32382
+23,x/a=b,32382
+24,ax=b,51027
+25,"ax+b=c, divide",18645
+26,"[const expr]*[var fact] + [const expr] = [const expr], divide",18645
+27,"[var expr]*[const expr] = [const expr], divide",18772
+28,a/b*x=c,18645
+29,"a/b*x=c, reciprocal",18645
+30,"(+/-x +/-a)/b=c, mult",24182
+31,a=x*(b+c),18645
+32,a=x*(b-c),18645
+33,a=x*(b*c+d),18645
+34,"x/a+b=c, multiply",18645
+35,"[var expr]/[const expr] = [const expr], multiply",24309
+36,Identifying,10760
+37,units,10760
+38,Eliminate,9725
+39,Parens,9725
+40,CLT,28983
+41,nested,10169
+42,"nested,",8316
+43,parens,8316
+44,Distribute,58170
+45,Mult,16632
+46,right,43065
+47,left,40367
+48,"(+/-x +/-a)*b=c, div",5537
+49,Division,11074
+50,both,22148
+51,mult,11074
+52,divide,11074
+53,subex,8316
+54,constant,20454
+55,"ax+b=c, positive",15440
+56,"ax+b=c, negative",22758
+57,"x+a=b, positive",16590
+58,"x+a=b, negative",16357
+59,"[var expr]+[const expr]=[const expr], positive",15440
+60,"[var expr]+[const expr]=[const expr], negative",15440
+61,"[var expr]+[const expr]=[const expr], all",15440
+62,Combine,50962
+63,constants,30880
+64,to,51276
+65,"a-x=b, positive",15440
+66,"a/x+b=c, positive",15440
+67,"a/x+b=c, negative",15440
+68,Labelling,8290
+69,the,12260
+70,axes,7159
+71,Changing,13525
+72,axis,13525
+73,bounds,9146
+74,intervals,4379
+75,Convert,1670
+76,"unit,",1670
+77,standard,1430
+78,Correctly,948
+79,placing,948
+80,points,1251
+81,simple,14162
+82,large,7632
+83,negative,14702
+84,Make,601
+85,variable,601
+86,Consolidate,28895
+87,vars,13537
+88,with,12449
+89,coeff,24029
+90,Select,6821
+91,"vars,",16841
+92,no,12318
+93,combine-like-terms-sp,3613
+94,Add/Subtract,5014
+95,Typein,10669
+96,Skill,10669
+97,Isolate,12095
+98,any,8351
+99,Multiply/Divide,4882
+100,in,5937
+101,denominator,5910
+102,simplify-fractions-sp,1715
+103,Setting,2371
+104,y-intercept,2324
+105,initial,624
+106,and,624
+107,change,326
+108,Calculate,773
+109,Terms,1196
+110,perform-mult-sp,2036
+111,perform-mult-r-sp,298
+112,distribute-sp,1256
+113,perform-mult-row2-sp,567
+114,form,639
+115,Extract,1483
+116,consolidate,1483
+117,factor,1483
+118,factorb,1483
+119,factorc,1483
+120,factord,1483
+121,Done?,313
+122,doneleft,313
+123,doneright,313
+124,done,656
+125,solution,328
+126,Done,656
+127,No,656
+128,"Solution,",656
+129,domain,328
+130,exception,656
+131,range,328
+132,infinite,313
+133,solutions,328
+134,factor-sp,707
+135,variables,18886
+136,"right,",8094
+137,sub,5396
+138,add,5423
+139,gen,5396
+140,"left,",8094
+141,ax+b=cx,2698
+142,"ax+b=cx, move left",2698
+143,"ax+b=cx+d, pos",2698
+144,"ax+b=cx+d, neg",2698
+145,"ax+b=cx+d, move right",2698
+146,"ax+b=cx+d, move two",2698
+147,"ax+b=cx+d, move two2",2698
+148,"x+b=cx+d, pos",2698
+149,"x+b=cx+d, neg",2698
+150,"x+b=cx+d, move right",2698
+151,"x+b=cx+d, move two",2698
+152,"x+b=cx+d, move two2",2698
+153,"ax+b=x+d, pos",2698
+154,"ax+b=x+d, neg",2698
+155,"ax+b=x+d, move right",2698
+156,"ax+b=x+d, move two",2698
+157,"ax+b=x+d, move two2",2698
+158,"x+b=x+d, pos",2698
+159,"x+b=x+d, neg",2698
+160,"x+b=x+d, move right",2698
+161,"x+b=x+d, move two",2698
+162,"x+b=x+d, move two2",2698
+163,"Multiply/Divide,",1853
+164,MT,5692
+165,fraction,2846
+166,combine-like-terms-whole-sp,919
+167,perform-mult-whole-sp,854
+168,Multiply,993
+169,mixed,187
+170,a/x=[anything],1028
+171,a/x=b,1028
+172,"a/x=b, sophisticated",1028
+173,point,2878
+174,of,1131
+175,intersection,1131
+176,two,303
+177,Negative,896
+178,"Constant,",896
+179,SIF,976
+180,"x-intercept,",197
+181,"y-intercept,",329
+182,Placing,999
+183,coordinate,999
+184,Excluding,224
+185,line,471
+186,when,471
+187,shading,471
+188,Shading,866
+189,equation,395
+190,greater,252
+191,than,471
+192,Positive,690
+193,"Constants,",690
+194,Including,247
+195,less,219
+196,GLF,1696
+197,"slope,",165
+198,quadratic,1168
+199,linear,1623
+200,value,2600
+201,computed,1388
+202,factor-quadratic-sp,307
+203,qft-num1-sp,271
+204,qft-num2-sp,268
+205,qft-den-sp,262
+206,Apply,478
+207,Exponent,478
+208,Expand,956
+209,Exponents,478
+210,eval,478
+211,radical,956
+212,"Exponents,",478
+213,multiplier,53
+214,ratio,44
+215,Identify,1274
+216,Parent,1274
+217,Description,425
+218,Equation,425
+219,Curve,424
+220,Choose,679
+221,Graphical,679
+222,k,493
+223,Edit,682
+224,Algebraic,682
+225,Refl-v,123
+226,refl-v,123
+227,h,204
+228,x,27
+229,-x,27
+230,move,27
+231,neg,27
+232,var,27
+233,other,27
+234,side,27
+235,invert-mult,20
+236,ivm,20
+237,combine-like-terms-r-sp,22

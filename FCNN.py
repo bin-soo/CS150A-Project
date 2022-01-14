@@ -43,3 +43,4 @@ for kfold, (train, val) in enumerate(KFold(n_splits=5,shuffle=True,random_state=
     fcnn.save(path)
 
 '0.53~0.61'
+'''origin 256, 64, 32, 2'''
