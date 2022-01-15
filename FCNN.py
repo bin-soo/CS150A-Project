@@ -24,13 +24,13 @@ for kfold, (train, val) in enumerate(KFold(n_splits=5,shuffle=True,random_state=
     y_train, y_val = trainy.iloc[train], trainy.iloc[val]
 
     fcnn = tf.keras.Sequential([
-        tf.keras.layers.Dense(256, activation='relu'),
-        tf.keras.layers.Dense(64, activation='relu'),
+        tf.keras.layers.Dense(400, activation='relu'),
+        tf.keras.layers.Dense(80, activation='relu'),
         tf.keras.layers.Dense(32, activation='relu'),
         tf.keras.layers.Dense(2,activation='softmax')
     ])
 
-    fcnn.compile(optimizer = tf.keras.optimizers.Adam(learning_rate=0.3),
+    fcnn.compile(optimizer = tf.keras.optimizers.Adam(learning_rate=0.5),
                  loss = 'sparse_categorical_crossentropy',
                  metrics=[rmse])
 
@@ -43,4 +43,4 @@ for kfold, (train, val) in enumerate(KFold(n_splits=5,shuffle=True,random_state=
     fcnn.save(path)
 
 '0.53~0.61'
-'''origin 256, 64, 32, 2'''
+'''origin 256, 64, 32, 2 learningrate 0.3 epochs 10 batch_size 32'''
