@@ -6,7 +6,7 @@
   Duration(mean:(student+problemname+step)/3),KC(0),Oppotunity(0).
   
 ### feature engineering
-1. one-hot encoding for text features.  
+1. target encoding for text features.  
 2. extract similarity or feature of KC.  
 3. Add features: ID+PH+PN+PV+SN+KC+(OP每单元求和）+8x(student CFAR/problem CFAR/step CFAR/PH CFAR/Duration)+(~KC聚类) for text features.  
 ### dataset seperation
