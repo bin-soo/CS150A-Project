@@ -12,10 +12,9 @@
 ### dataset seperation
 k-fold cross validation for each expert  
 ## Classification
-### Bagging - soft voting of L experts (classifiers) with base acc as weight
-with/without dropout in val for bagging  
+### Bagging and Stacking - soft voting of L experts (classifiers) with base acc as weight
 Base expert:
-  - Autogluon
+  - SVC
   - FCNN
   - XGBoost
   - RandomForest
