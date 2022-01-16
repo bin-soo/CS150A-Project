@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import KFold,GroupKFold
 
-traindata = pd.read_csv('data/target_clear_train.csv')
+traindata = pd.read_csv('D:/CS150EVI/CS150A-Project/data/target_clear_train.csv')
 sample1 = traindata.sample(n=30000,random_state=42) #FCNN
 trainx1 = sample1.iloc[:,1:12]
 trainy1 = sample1.iloc[:,12]
@@ -30,9 +30,9 @@ samples = pd.concat([sample1,sample2,sample3,sample4,sample5])
 trainxs = samples.iloc[:,1:12]
 trainys = samples.iloc[:,12]
 
-finaldata = pd.read_csv('data/target_clear_test.csv')   #what we actually need to predict, all test data.
+finaldata = pd.read_csv('D:/CS150EVI/CS150A-Project/data/target_clear_test.csv')   #what we actually need to predict, all test data.
 finalx = finaldata.iloc[:,1:12]
 
-testdata = pd.read_csv('data/target_clear_test_label.csv')
+testdata = pd.read_csv('D:/CS150EVI/CS150A-Project/data/target_clear_test_label.csv')
 testx = testdata.iloc[:,1:12]
 testy = testdata.iloc[:,12]

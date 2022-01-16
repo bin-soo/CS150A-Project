@@ -12,14 +12,14 @@ from sklearn.ensemble import VotingClassifier
 from sklearn.model_selection import KFold
 def rmse(y1,y2):
     return np.sqrt(((y1 - y2) ** 2).mean())
-svc = joblib.load('svc.model')
-meansvc = joblib.load('meansvc.model')
-xgb = joblib.load('xgb.model')
-meanxgb = joblib.load('meanxgb.model')
-rf = joblib.load('rf.model')
-meanrf = joblib.load('meanrf.model')
-lgbm = joblib.load('gbm.model')
-meangbm = joblib.load('meangbm.model')
+svc = joblib.load('D:/CS150EVI/CS150A-Project/models/svc.model')
+meansvc = joblib.load('D:/CS150EVI/CS150A-Project/models/meansvc.model')
+xgb = joblib.load('D:/CS150EVI/CS150A-Project/models/xgb.model')
+meanxgb = joblib.load('D:/CS150EVI/CS150A-Project/models/meanxgb.model')
+rf = joblib.load('D:/CS150EVI/CS150A-Project/models/rf.model')
+meanrf = joblib.load('D:/CS150EVI/CS150A-Project/models/meanrf.model')
+lgbm = joblib.load('D:/CS150EVI/CS150A-Project/models/gbm.model')
+meangbm = joblib.load('D:/CS150EVI/CS150A-Project/models/meangbm.model')
 # fcnn = models.load_model('fcnn')
 # meannn = joblib.load('meannn.model')
 rmseList = []
@@ -43,8 +43,8 @@ for kfold, (train, val) in enumerate(KFold(n_splits=5,shuffle=True,random_state=
 
 print('rmse of val: ',rmseList,'\nmean: ',np.mean(rmseList))
 meanvoting = np.mean(rmseList)
-joblib.dump(filename='soft1.model',value=soft)
-joblib.dump(filename='meansoft1.model',value=meanvoting)
+joblib.dump(filename='D:/CS150EVI/CS150A-Project/models/soft1.model',value=soft)
+joblib.dump(filename='D:/CS150EVI/CS150A-Project/models/meansoft1.model',value=meanvoting)
 
 '''
 bagging, equal weights of 4:

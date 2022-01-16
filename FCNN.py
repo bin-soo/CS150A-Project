@@ -30,7 +30,7 @@ for kfold, (train, val) in enumerate(KFold(n_splits=5,shuffle=True,random_state=
         tf.keras.layers.Dense(2,activation='softmax')
     ])
 
-    fcnn.compile(optimizer = tf.keras.optimizers.Adam(learning_rate=0.5),
+    fcnn.compile(optimizer = tf.keras.optimizers.Adam(learning_rate=0.65),
                  loss = 'sparse_categorical_crossentropy',
                  metrics=[rmse])
 
